@@ -1,0 +1,38 @@
+.toast{
+    display: block !important;
+}
+@media(max-width: 600px) {
+    #toast-container {
+       left: 0 !important;
+   }   
+}
+
+img[alt="www.000webhost.com"] {
+    display: none;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+    color: #627372 !important;
+}
+
+nav{
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tabs .tab a{
+    color: rgba(75,121,161,0.7);
+}
+.tabs .tab.disabled a, .tabs .tab.disabled a:hover{
+    color: rgba(75,121,161,0.4);
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: rgba(75,121,161,0.2);
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    color: #4B79A1;
+}
+.tabs .indicator{
+    background: #4B79A1 !important;
+}
